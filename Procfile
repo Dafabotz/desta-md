@@ -1,1 +1,1 @@
-worker: node. --session 'session-by-zeeoneofc.data.json'
+worker: node. --session 'session.data.json'
