@@ -2,9 +2,9 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 owner = [
+  ['6285272744623'],
   ['6288271109247'],
-  ['6281372248783'],
-  ['62895330379186', 'Owner', true]
+  ['6288708018815', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 mods = [] // Want some help?
@@ -40,11 +40,11 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@ainee_bot'
+  var sticker_name = 'bibz_bot'
   var sticker_author = 'Aine'
 } else {
-  var sticker_name = stickerpack.spackname
-  var sticker_author = stickerpack.sauthor
+  var sticker_name = bibz bot
+  var sticker_author = DAFFA CREATOR
 }
 
 const file_exif = "lib/exif.json"
@@ -56,8 +56,8 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-packname = sticker_name
-author = sticker_author
+packname = bibz-dafa
+author = bot-creators
 wm = '© Aine'
 
 Intervalmsg = 1800 //detik
